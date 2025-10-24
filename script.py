@@ -333,6 +333,7 @@ def process_numbers(country_name, country_code, numbers):
                     print("Neither register_new_number.png nor request_review.png found")
 
 def main():
+    time.sleep(60)
     # Open MuMu_Installer.exe without blocking
     print("Opening MuMu_Installer.exe...")
     subprocess.Popen("MuMu_Installer.exe")
@@ -500,3 +501,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
